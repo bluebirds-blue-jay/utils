@@ -1,0 +1,1 @@
+export import isSet = require('lodash.isset');

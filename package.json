@@ -1,0 +1,38 @@
+{
+  "name": "@bluejay/util",
+  "scripts": {
+    "test": "mocha --require ./test/setup.js ./test/**/*.test.js"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "General purpose utilities for bluejay modules.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluebirds-blue-jay/util.git"
+  },
+  "keywords": [
+    "bluejay",
+    "util",
+    "utils"
+  ],
+  "author": "Sylvain Estevez",
+  "bugs": {
+    "url": "https://github.com/bluebirds-blue-jay/util/issues"
+  },
+  "homepage": "https://github.com/bluebirds-blue-jay/util#readme",
+  "dependencies": {
+    "@types/lodash.isarguments": "^3.1.2",
+    "@types/lodash.isset": "^4.4.2",
+    "@types/node": "^7.0.31",
+    "lodash.isarguments": "^3.1.0",
+    "lodash.isset": "^4.4.2",
+    "typescript": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.0",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
