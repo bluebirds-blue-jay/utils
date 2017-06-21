@@ -1,5 +1,10 @@
 export { isSet } from './is-set';
 export { isArguments } from './is-arguments';
+export { isInteger } from './is-integer';
+export { isEmpty } from './is-empty';
+export { compact } from './compact';
+export { pick } from './pick';
+export { wait } from './wait';
 export { makeArray } from './make-array';
 export { noop } from './noop';
 export { TConstructible } from './t-constructible';
