@@ -1,1 +1,5 @@
-export import isSet = require('lodash.isset');
+import _isSet = require('lodash.isset');
+
+export function isSet(value: any): boolean {
+  return _isSet(value);
+}

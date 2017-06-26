@@ -7,8 +7,8 @@ export function makeArray<T>(value: T[] | IArguments | T | Set<T>): T[] {
   }
 
   if (isSet(value) || isArguments(value)) {
-    return Array.from(value);
+    return Array.from(<T[] | IArguments | Set<T>>value);
   }
 
-  return [value];
+  return [<T>value];
 }

@@ -1,5 +1,8 @@
-export { isSet } from './is-set';
-export { isArguments } from './is-arguments';
-export { makeArray } from './make-array';
-export { noop } from './noop';
-export { TConstructible } from './t-constructible';
+export * from './is-set';
+export * from './is-arguments';
+export * from './is-null';
+export * from './is-undefined';
+export * from './is-none';
+export * from './make-array';
+export * from './noop';
+export * from './t-constructible';
