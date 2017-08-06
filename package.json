@@ -4,7 +4,7 @@
     "test": "mocha --require ./test/setup.js ./test/**/*.test.js"
   },
   "license": "MIT",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "main": "index.js",
   "description": "General purpose utilities for bluejay modules.",
   "repository": {
