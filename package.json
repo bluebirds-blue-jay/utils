@@ -1,5 +1,5 @@
 {
-  "name": "@bluejay/util",
+  "name": "@bluejay/utils",
   "scripts": {
     "test": "mocha --require ./test/setup.js ./test/**/*.test.js"
   },
@@ -9,18 +9,17 @@
   "description": "General purpose utilities for bluejay modules.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluebirds-blue-jay/util.git"
+    "url": "git+https://github.com/bluebirds-blue-jay/utils.git"
   },
   "keywords": [
     "bluejay",
-    "util",
     "utils"
   ],
   "author": "Sylvain Estevez",
   "bugs": {
-    "url": "https://github.com/bluebirds-blue-jay/util/issues"
+    "url": "https://github.com/bluebirds-blue-jay/utils/issues"
   },
-  "homepage": "https://github.com/bluebirds-blue-jay/util#readme",
+  "homepage": "https://github.com/bluebirds-blue-jay/utils#readme",
   "dependencies": {
     "@types/lodash.compact": "3.0.2",
     "@types/lodash.isarguments": "^3.1.2",
