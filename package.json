@@ -1,7 +1,8 @@
 {
   "name": "@bluejay/utils",
   "scripts": {
-    "test": "mocha --require ./test/setup.js ./test/**/*.test.js"
+    "test": "mocha --require ./node_modules/ts-node/register --require ./test/setup.js ./test/**/*.test.js",
+    "docs": "./node_modules/.bin/typedoc --out docs --mode file --excludePrivate --excludeExternals ./index.ts"
   },
   "license": "MIT",
   "version": "1.5.1",
@@ -29,6 +30,8 @@
     "@types/chai": "^4.0.0",
     "@types/mocha": "^2.2.41",
     "chai": "^4.0.2",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "ts-node": "^3.3.0",
+    "typedoc": "^0.8.0"
   }
 }
