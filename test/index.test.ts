@@ -1,4 +1,4 @@
-import { Utils } from '../';
+import * as Utils from '../';
 
 describe('Utils', function () {
   describe('.makeArray()', function () {

@@ -3,7 +3,7 @@
   "scripts": {
     "test": "mocha --require ./node_modules/ts-node/register --require ./test/setup.js ./test/**/*.test.js",
     "docs": "./node_modules/.bin/typedoc --out docs --mode file --excludePrivate --excludeExternals ./index.ts",
-    "prepare": "tsc"
+    "prepare": "rm -rf dts && tsc && tsc --outDir dts -d"
   },
   "license": "MIT",
   "version": "2.0.1",
@@ -18,6 +18,7 @@
     "utils"
   ],
   "author": "Sylvain Estevez",
+  "typings": "dts/index.d.ts",
   "bugs": {
     "url": "https://github.com/bluebirds-blue-jay/utils/issues"
   },
