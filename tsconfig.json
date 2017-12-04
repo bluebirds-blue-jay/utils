@@ -3,12 +3,14 @@
     "module": "commonjs",
     "target": "es6",
     "moduleResolution": "node",
-    "strictNullChecks": true,
+    "strict": true,
     "alwaysStrict": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "lib": ["es2017"],
+    "types": ["node", "mocha"]
   },
   "exclude": [
     "node_modules",
