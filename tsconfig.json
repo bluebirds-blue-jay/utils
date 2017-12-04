@@ -10,7 +10,7 @@
     "suppressImplicitAnyIndexErrors": true,
     "inlineSourceMap": true,
     "lib": ["es2017"],
-    "types": ["node", "mocha"]
+    "types": ["node", "mocha", "chai"]
   },
   "exclude": [
     "node_modules",
