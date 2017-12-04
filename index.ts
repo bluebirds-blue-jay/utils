@@ -1,4 +1,9 @@
 export { NOOP } from './src/constants/noop';
 export { TConstructible } from './src/types/constructible';
+export { Diff } from './src/types/diff';
+export { Omit } from './src/types/omit';
 export { makeArray } from './src/utils/make-array';
+export { pick } from './src/utils/pick';
+export { pluck } from './src/utils/pluck';
+export { omit } from './src/utils/omit';
 export { wait } from './src/utils/wait';
