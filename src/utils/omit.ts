@@ -1,7 +1,5 @@
 import * as Lodash from 'lodash';
-
-export type Diff<T extends string, U extends string> = ({[P in T]: P } & {[P in U]: never } & { [x: string]: never })[T];
-export type Omit<T, K extends keyof T> = {[P in Diff<keyof T, K>]: T[P]};
+import { Omit } from '../types/omit';
 
 export function omit<T, K extends keyof T>(obj: T, keys: K|K[]): Omit<T, K> {
   return <any>Lodash.omit(obj, keys);
