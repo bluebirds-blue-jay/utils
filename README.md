@@ -14,7 +14,7 @@ General purpose utilities for Bluejay modules.
 ## Usage
 
 ```typescript
-import * as Utils from '@bluejay/utils`;
+import * as Utils from '@bluejay/utils';
 
 Utils.makeArray(1); // [1]
 ```
@@ -22,7 +22,7 @@ Utils.makeArray(1); // [1]
 Using the name export.
 
 ```typescript
-import { Utils } from '@bluejay/utils`;
+import { Utils } from '@bluejay/utils';
 
 Utils.makeArray(1); // [1]
 ```
