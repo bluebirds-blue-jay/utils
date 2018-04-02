@@ -10,3 +10,4 @@ export { omit } from './src/utils/omit';
 export { wait } from './src/utils/wait';
 export { clone } from './src/utils/clone';
 export { cloneDeep } from './src/utils/clone-deep';
+export { enumValues } from './src/utils/enum-values';
