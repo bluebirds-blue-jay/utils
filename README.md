@@ -1,5 +1,9 @@
 # Utils
 
+[![npm](https://img.shields.io/npm/v/@bluejay/utils.svg?style=flat-square)](https://www.npmjs.com/package/@bluejay/utils)
+ [![npm](https://img.shields.io/npm/dm/@bluejay/utils.svg?style=flat-square)](https://www.npmjs.com/package/@bluejay/utils)
+[![npm](https://img.shields.io/npm/l/@bluejay/utils.svg?style=flat-square)](https://www.npmjs.com/package/@bluejay/utils)
+
 General purpose utilities for Bluejay modules.
 
 ## Requirements
