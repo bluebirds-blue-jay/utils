@@ -24,17 +24,17 @@
   },
   "homepage": "https://github.com/bluebirds-blue-jay/utils#readme",
   "dependencies": {
-    "@bluejay/collection": "4.2.9",
-    "lodash": "^4.17.4"
+    "@bluejay/collection": "4.3.0",
+    "lodash": "4.17.11"
   },
   "devDependencies": {
-    "typescript": "~2.5.3",
-    "@types/lodash": "^4.14.76",
     "@types/chai": "^4.0.0",
+    "@types/lodash": "^4.14.76",
     "@types/mocha": "^2.2.41",
     "chai": "^4.0.2",
-    "mocha": "^3.4.2",
+    "mocha": "6.0.2",
     "ts-node": "^3.3.0",
-    "typedoc": "^0.8.0"
+    "typedoc": "0.14.2",
+    "typescript": "~2.5.3"
   }
 }
