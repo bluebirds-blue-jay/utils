@@ -25,16 +25,16 @@
   "homepage": "https://github.com/bluebirds-blue-jay/utils#readme",
   "dependencies": {
     "@bluejay/collection": "4.3.3",
-    "lodash": "4.17.11"
+    "lodash": "4.17.15"
   },
   "devDependencies": {
     "@types/chai": "^4.0.0",
     "@types/lodash": "^4.14.76",
     "@types/mocha": "^2.2.41",
     "chai": "^4.0.2",
-    "mocha": "6.0.2",
+    "mocha": "6.2.0",
     "ts-node": "^3.3.0",
-    "typedoc": "0.14.2",
+    "typedoc": "0.15.0",
     "typescript": "~2.5.3"
   }
 }
