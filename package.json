@@ -25,7 +25,7 @@
   "homepage": "https://github.com/bluebirds-blue-jay/utils#readme",
   "dependencies": {
     "@bluejay/collection": "4.3.4",
-    "lodash": "4.17.15"
+    "lodash": "4.17.19"
   },
   "devDependencies": {
     "@types/chai": "^4.0.0",
