@@ -10,6 +10,7 @@ export function enumValues<T extends string | number, E extends {}>(enumeration:
       continue;
     }
 
+    // @ts-ignore 4.0.0 claims the second part of the condition is not necessary
     if (Lodash.isInteger(value) && enumeration[value as keyof E] === key) {
       integerValues.push(value as number);
     } else if (Lodash.isString(value)) {

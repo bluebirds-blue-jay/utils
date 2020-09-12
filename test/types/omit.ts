@@ -1,5 +1,3 @@
-import { Omit } from '../../src/types/omit';
-
 type TOriginal = {
   forget: string;
   required: string;
@@ -8,4 +6,4 @@ type TOriginal = {
 
 type TOmitted = Omit<TOriginal, 'forget'>;
 
-const test: TOmitted = { required: 'foo' }; // `optional` remains optional
+const dummy: TOmitted = { required: 'foo' }; // `optional` remains optional
