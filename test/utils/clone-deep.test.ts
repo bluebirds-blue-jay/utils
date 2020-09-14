@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import { Collection } from '@bluejay/collection';
 import { cloneDeep } from '../../src/utils/clone-deep';
 

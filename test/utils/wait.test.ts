@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import * as Utils from '../../';
 
 describe('.wait()', function () {

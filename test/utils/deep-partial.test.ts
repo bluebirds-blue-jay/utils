@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import { DeepPartial } from '../../src/types/deep-partial';
 
 describe('DeepPartial', function () {

@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import { pick } from '../../src/utils/pick';
 
 describe('.pick()', function () {
