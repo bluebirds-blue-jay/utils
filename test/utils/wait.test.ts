@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import * as Utils from '../../';
+import * as Utils from '../../src';
 
 describe('.wait()', function () {
   it('should wait for appr. 100ms', async function () {

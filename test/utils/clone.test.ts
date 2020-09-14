@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { Collection } from '@bluejay/collection';
-import { clone } from '../../src/utils/clone';
+import { clone } from '../../src';
 
 describe('.clone()', () => {
   it('should clone a collection', () => {

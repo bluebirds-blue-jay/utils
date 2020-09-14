@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { makeArray } from '../../src/utils/make-array';
+import { makeArray } from '../../src';
 
 describe('.makeArray()', function () {
   it('should return the same array', function () {

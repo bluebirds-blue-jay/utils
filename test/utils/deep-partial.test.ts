@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { DeepPartial } from '../../src/types/deep-partial';
+import { DeepPartial } from '../../src';
 
 describe('DeepPartial', function () {
   it('should allow deep partial definitions', async function () {

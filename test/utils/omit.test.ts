@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { omit } from '../../src/utils/omit';
+import { omit } from '../../src';
 
 describe('.omit()', function () {
   it('should omit a property from an object', async function () {

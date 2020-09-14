@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { pluck } from '../../src/utils/pluck';
+import { pluck } from '../../src';
 
 describe('.pluck()', function () {
   it('should pluck from an array' +
