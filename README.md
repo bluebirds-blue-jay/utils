@@ -8,8 +8,7 @@ General purpose utilities for Bluejay modules.
 
 ## Requirements
 
-- `node >= 7.10`, tested with:
-  - `node@7.10.0`
+- `node >= 8.6`, tested with:
   - `node@8.6.0`
   - `node@12.8.1`
 - `typescript >= 4.0`, tested with:
