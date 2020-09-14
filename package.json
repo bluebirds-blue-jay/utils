@@ -6,7 +6,7 @@
     "prepare": "rm -rf dts && tsc && tsc --outDir dts -d"
   },
   "license": "MIT",
-  "version": "4.0.0-alpha.4",
+  "version": "4.0.0-alpha.5",
   "main": "index.js",
   "description": "General purpose utilities for bluejay modules.",
   "repository": {
