@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { pick } from '../../src';
+import { pick } from '../../src/utils/pick';
 
 describe('.pick()', function () {
   it('should pick a property from an object', async function () {

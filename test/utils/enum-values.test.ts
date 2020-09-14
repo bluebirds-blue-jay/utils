@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { enumValues } from '../../src';
+import { enumValues } from '../../src/utils/enum-values';
 
 namespace Str {
   export const TOTO = 3;
