@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/bluebirds-blue-jay/utils#readme",
   "dependencies": {
-    "@bluejay/collection": "4.3.4",
+    "@bluejay/collection": "github:bluebirds-blue-jay/collection#e52cbd8e30673af5b46470b43b16ee0a974d3971",
     "lodash": "4.17.20"
   },
   "devDependencies": {
