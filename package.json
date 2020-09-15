@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "docs": "./node_modules/.bin/typedoc --out docs --mode file --excludePrivate --excludeExternals ./index.ts",
+    "docs": "./node_modules/.bin/typedoc --out docs --mode file --excludePrivate --excludeExternals ./src/index.ts",
     "test": "mocha",
     "cov": "nyc mocha",
     "lint": "tslint --project ./",
