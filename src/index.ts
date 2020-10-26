@@ -7,6 +7,4 @@ export { pick } from './utils/pick';
 export { pluck } from './utils/pluck';
 export { omit } from './utils/omit';
 export { wait } from './utils/wait';
-export { clone } from './utils/clone';
-export { cloneDeep } from './utils/clone-deep';
 export { enumValues } from './utils/enum-values';
