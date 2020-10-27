@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import { pluck } from '../../src/utils/pluck';
 
 describe('.pluck()', function () {

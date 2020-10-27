@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import { makeArray } from '../../src/utils/make-array';
 
 describe('.makeArray()', function () {

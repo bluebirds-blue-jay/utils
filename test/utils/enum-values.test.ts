@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import { enumValues } from '../../src/utils/enum-values';
 
 namespace Str {

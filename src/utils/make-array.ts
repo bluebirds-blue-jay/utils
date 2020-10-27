@@ -1,4 +1,4 @@
-import { isSet, isArguments } from 'lodash';
+import { isArguments, isSet } from 'lodash';
 
 export function makeArray<T>(value: T[] | IArguments | T | Set<T>): T[] {
   if (Array.isArray(value)) {

@@ -1,7 +1,7 @@
 import * as Lodash from 'lodash';
 
 export function enumValues<T extends string | number, E extends {}>(enumeration: E, options: Partial<{ excludeValues: any[] }> = {}): T[] {
-  const map = new Map(Lodash.toPairs(enumeration));
+  const map = new Map<string, string | number>(Lodash.toPairs(enumeration));
   const integerValues: number[] = [];
   const stringValues: string[] = [];
 
@@ -10,6 +10,7 @@ export function enumValues<T extends string | number, E extends {}>(enumeration:
       continue;
     }
 
+    // @ts-ignore 4.0.0 claims the second part of the condition is not necessary, but it is.
     if (Lodash.isInteger(value) && enumeration[value as keyof E] === key) {
       integerValues.push(value as number);
     } else if (Lodash.isString(value)) {
