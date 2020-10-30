@@ -1,11 +1,9 @@
-type TPrimitives = boolean | string | number | Date | symbol;
+type AllowedPrimitives = boolean | string | number | Date;
+
+type Value<T> = T extends AllowedPrimitives ? T : DeepPartial<T>;
 
 export type DeepPartial<T> = {
-  [P in keyof T]?:  T[P] extends TPrimitives
-    ? T[P]
-    : T extends (infer U)[]
-      ? U extends TPrimitives
-        ? U[]
-        : DeepPartial<U>[]
-      : DeepPartial<T[P]>;
+  [P in keyof T]?: T[P] extends (infer U)[]
+    ? Value<U>[]
+    : Value<T[P]>;
 };
