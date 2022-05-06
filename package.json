@@ -9,7 +9,7 @@
   "scripts": {
     "docs": "./node_modules/.bin/typedoc --out docs --excludePrivate --excludeExternals ./src/index.ts",
     "test": "mocha -r ts-node/register -r 'test/setup.ts' --recursive 'test/**/*.test.ts'",
-    "cov": "nyc mocha",
+    "cov": "nyc npm run test",
     "lint": "tslint --project ./",
     "fix": "tslint --fix --project ./",
     "compile": "tsc",
